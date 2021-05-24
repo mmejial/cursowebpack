@@ -1,0 +1,32 @@
+{
+  "name": "cursowebpack",
+  "version": "1.0.0",
+  "description": "curso de webapck",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheevarip/cursowebpack.git"
+  },
+  "author": "marco antonio mejia loez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheevarip/cursowebpack/issues"
+  },
+  "homepage": "https://github.com/sheevarip/cursowebpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
