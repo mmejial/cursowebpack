@@ -13,6 +13,7 @@ module.exports = {
 
     },
     mode: 'development',
+    watch: true,
     resolve:{
         extensions: ['.js'],//dependiento de lo que se utulice en el proyecto se ponen las extenciones
         alias:{
