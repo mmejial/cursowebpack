@@ -13,7 +13,7 @@ module.exports = {
 
     },
     mode: 'development',
-    watch: true,
+    /* watch: true, */
     resolve:{
         extensions: ['.js'],//dependiento de lo que se utulice en el proyecto se ponen las extenciones
         alias:{
@@ -77,7 +77,13 @@ module.exports = {
         }),
         new Dotenv()
     ],
-   
+   devServer: {
+       contentBase: path.join(__dirname, 'dist'),
+       compress: true,
+       historyApiFallback: true,
+       port: 3006,
+
+   }
     
 
 }
